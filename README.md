@@ -1,12 +1,7 @@
 Setup:
 -Ensure you have psycopg2 installed (if not, install using "pip install psycopg2")
 
--Create a database.ini file with the following setup:
-[postgresql]
-host=
-database=
-user=
-password=
+-Modify the database.ini contents to match that of your Postgresql database information
 
 The information used should be the same that's prompted by PSQL, and use the name of the desired database to connect to.
 
