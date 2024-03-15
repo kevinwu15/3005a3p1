@@ -53,6 +53,7 @@ def resetDatabaseToDefault():
 if __name__ == "__main__":
     # Attempting to connect to the database by using the psycopg2 connect
     try:
+        # Using the getFields function from config.py to access information stored in the database.ini file
         fields = getFields()
         print("Connecting to COMP3005 A3 database")
         # Unpacking the fields dictionary into parameters for the connect function
